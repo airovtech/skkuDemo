@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 리셋 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent;}/*font-size:100%*/
+body { line-height:1; font-family:'Nanum Gothic','나눔고딕','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana; font-size:15px; -webkit-text-size-adjust: none; font-weight:400 !important;}/**/
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section {display:block;} /* delete vertical-align */
+body,html { width:100%; background:#fff;}
+ol,ul,li { list-style:none;}
+blockquote,q { quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after { content:''; content:none;}
+table { border-collapse:collapse; border-spacing:0;}
+dt { display:block;}
+a { cursor:pointer; text-decoration:none;}
+hr { display:none;}
+img{border:0 none;}
+input, select, img { vertical-align:middle;}
+input, select, textarea { font-family:'Nanum Gothic','나눔고딕','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana;}
+.hidden{position:absolute; left:-9999px; top::-9999px; width:0; height:0; font-size:0;line-height:0;}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/NanumGothic-Regular.eot);
+  src: url(font/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumGothic-Regular.woff2) format('woff2'),
+       url(font/NanumGothic-Regular.woff) format('woff'),
+       url(font/NanumGothic-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(font/NanumGothic-ExtraBold.eot);
+  src: url(font/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumGothic-ExtraBold.woff2) format('woff2'),
+       url(font/NanumGothic-ExtraBold.woff) format('woff'),
+       url(font/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+html * {font-family:'Nanum Gothic' !important;}
+html * select{font-family:'Nanum Gothic','나눔고딕' !important;}
+
+/* Container */
+#container {height: 100%; max-width: 640px; text-align: center; width: 100%; margin:auto}
+
+/* Header */
+header, #header { position:relative; background-color:#33353f; width:100%}
+#header dl { max-width: 640px; min-width: 320px; margin: 0 auto; padding: 0 13px}
+#header dt { text-align:center; padding: 15px; color:#FFF}
+#header dl a { display:inline-block; position: absolute; color:#FFF; width:25px; height:25px; font-size:0}
+#header dl .u_menu_l a { left:13px; top:16px; background:url(../imgs/header_ico.png) no-repeat 50% 0;}
+#header dl .u_menu_r a { right:15px; top: 12px; background:url(../imgs/header_ico.png) no-repeat 50% -50px;}
+
+
+/* Nav */
+nav, #nav { background:url(../imgs/container_bg.jpg) repeat-x 0 0 #eaeef1; width:100%; height:100%; overflow:hidden}
+nav h1, #nav h1 { background:url(../imgs/h1_img.png) no-repeat 0 0 ; max-width:409px; font-size:0; min-height:100px; display: inline-block; width:100%; margin: 32px 0;}
+#nav li { margin:0 0 27px}
+#nav li a {background:url(../imgs/main_nav.png) no-repeat 0 0 ; display:block; max-width:564px; font-size:0; min-height:163px; width:100%; margin: 0 auto}
+#nav li.mn_01 a {background:url(../imgs/main_nav01.png) no-repeat 0 0 }
+#nav li.mn_02 a {background:url(../imgs/main_nav02.png) no-repeat 0 0 }
+#nav li.mn_03 a {background:url(../imgs/main_nav03.png) no-repeat 0 0 }
+#nav li:last-child { margin:0 0 45px 0}
+
+/* Footer */
+#footer { background-color:#222222; min-height:97px; padding:13px 12px; color:#FFF; overflow:hidden}
+#footer, #footer a {}
+#footer dt, #footer h1 {font-size:0; text-indent:-999px}
+#footer dl {background-color:#3c3d42; height:55px; width:100%; border:1px solid #111111; border-radius:6px; margin: 0 0 19px;}
+#footer dd { float:left; background:url(../imgs/footer_gab.gif) repeat-y 100% 0; width:33.3%; padding: 20px 0;}
+#footer dd:last-child { background:0}
+#footer a { color:#FFF}
+#footer a:hover {color:#cccccc}
+#footer .tel { background:url(../imgs/tel.png) no-repeat 0 0; float:left; width:146px; height:20px; font-size:0;}
+#footer .copyright { float:right; font-size:11px}
