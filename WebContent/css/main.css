@@ -60,7 +60,8 @@ html * select{font-family:'Nanum Gothic','나눔고딕' !important;}
 .mr15 { margin-right: 15px !important}
 
 /* Container */
-#container {height: 100%; max-width: 640px; text-align: center; width: 100%; margin:auto; background-color: #eaeef1}
+/* #container {height: 100%; max-width: 640px; text-align: center; width: 100%; margin:auto; background-color: #eaeef1}
+ */#container {height: 100%; text-align: center; width: 100%; margin:auto; background-color: #eaeef1}
 
 /* Header */
 header, #header { position:relative; background-color:#33353f; width:100%}

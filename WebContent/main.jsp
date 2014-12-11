@@ -5,7 +5,7 @@
 <meta charset="utf-8" />
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="telephone=no" name="format-detection">
-<meta name="viewport" "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="viewport" width="device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
  
 <title>서울대학교병원 건강검진 알리미</title>
 <link href="css/main.css" type="text/css" rel="stylesheet">
