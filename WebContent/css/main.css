@@ -61,7 +61,7 @@ body { background-color:#eaeef1}
 .mr15 { margin-right: 15px !important}
 
 /* Container */
-#container {height: 100%; text-align: center; width: 100%; margin:auto; background-color: #eaeef1}
+#container {height: 100%; text-align: center; width: 100%; margin:auto; background-color: #eaeef1; overflow-x:hidden}
 
 /* Header */
 header, #header { position:relative; background-color:#33353f; width:100%}
@@ -72,7 +72,7 @@ header, #header { position:relative; background-color:#33353f; width:100%}
 #header dl .u_menu_r a { right:15px; top: 12px; background:url(../imgs/header_ico.png) no-repeat 50% -50px;}
 
 /* Nav */
-nav, #nav { background:url(../imgs/container_bg.jpg) repeat-x 0 0 #eaeef1; width:100%; overflow: hidden; margin-bottom: 60px;}
+nav, #nav { background:url(../imgs/container_bg.jpg) repeat-x 0 0 #eaeef1; width:100%; overflow: hidden;}
 nav h1, #nav h1 { background:url(../imgs/h1_img.png) no-repeat 50% 50% / contain; font-size:0; min-height:70px; display: inline-block; width:96%; margin: 5% 3%;}
 #nav li { margin:0 3% 3%}
 #nav li a {background:url(../imgs/main_nav.png) no-repeat 0 0 / contain; display:block; font-size:0; min-height:100px; width:100%; margin: 0 auto}
@@ -83,7 +83,7 @@ nav h1, #nav h1 { background:url(../imgs/h1_img.png) no-repeat 50% 50% / contain
 
 /* Sub */
 img { width:100%}
-.section {color:#666666; height: 100%; margin-bottom: 112px;}
+.section {color:#666666; height: 100%}
 .section h1 { font-size:0; text-indent:-999px; min-height:105px}
 .section h1.tit1 { background:url(../imgs/title_1.jpg) no-repeat 50% 0 / contain #ff999a}
 .section h1.tit2 { background:url(../imgs/title_2.jpg) no-repeat 50% 0 / contain #99cc01}
@@ -145,7 +145,7 @@ button { cursor:pointer; border-radius: 7px; margin: 0 0 8%}
 .btn_l {}
 
 /* Footer */
-#footer { background-color:#222222; padding:3%; color:#FFF; overflow:hidden; position: fixed; bottom: 0; width: 100%;}
+#footer { background-color:#222222; padding:3%; color:#FFF; overflow:hidden; width: 100%;}
 #footer, #footer a {}
 #footer dt, #footer h1 {font-size:0; text-indent:-999px}
 #footer dl {background-color:#3c3d42; width:94%; border:1px solid #111111; border-radius:5px; margin: 0 0 19px; overflow: hidden;}
@@ -183,11 +183,13 @@ nav h1, #nav h1 {width:70%; margin: 3%}
 .section_map li.space_08 a { background:url(../imgs/im3_1_8.png) no-repeat 0 0 / contain; width: 49px; height: 80px; left: 47px; bottom: 21px;}
 .section_map li.space_09 a { background:url(../imgs/im3_1_9.png) no-repeat 0 0 / contain; width: 35px; height: 15px; left: 99px; bottom: 111px;}
 
+button { margin: 0 0 5% 0}
 .btn_m {font-size:95%; padding: 2% 5%;}
 .btn_s {font-size:88%; padding: 2% 5%;}
 .btn_s.green.clock {font-size:95%; padding: 3% 7% 3% 11%; background: url(../imgs/ico_clock_s.png) no-repeat 11px 9px #99cc01;}
 .btn_s.green.clock:hover {background: url(../imgs/ico_clock_s.png) no-repeat 11px 9px #a5a5a5;}
- 
+
+#footer dl {margin: 0 0 4%;}
 #footer dd { font-size:80%}
 address { width:93%;}
 #footer .copyright {font-size:68%}
